@@ -21,6 +21,9 @@ A livability score for apartment buildings in Cincinnati, OH, built entirely fro
 `outputs/livability/`:
 - `apartment_buildings_scored.gpkg` - all apartment buildings with every raw factor, its normalized (`_norm`) column, `livability_score`, and `livability_score_equal`.
 - `apartment_buildings_scored.geojson` - the same data in EPSG:4326.
+- `livability_score_map.png` - a static choropleth of `livability_score` by building.
+
+![Livability score map](outputs/livability/livability_score_map.png)
 
 ## Running it
 
