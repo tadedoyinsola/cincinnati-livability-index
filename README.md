@@ -2,10 +2,11 @@
 
 A reproducible geospatial workflow that assigns a livability score to apartment buildings in Cincinnati, Ohio, from open data. Built with Python (GeoPandas, osmnx) as an applied exercise in agentic geospatial data science.
 
-> Status: analysis complete for three factors (parks, transit, schools). Scores and figures below were produced from OpenStreetMap data retrieved via `osmnx`. See [Reproducing the analysis](# 1. Create and activate the environment
+> Status: analysis complete for three factors (parks, transit, schools). Scores and figures below were produced from OpenStreetMap data retrieved via `osmnx`.
+> See [Reproducing the analysis](# [1. Create and activate the environment
 conda create --name claude_code_workshop -y
 conda activate claude_code_workshop
-conda install -c conda-forge pandas geopandas matplotlib jupyterlab osmnx -y
+conda install -c conda-forge pandas geopandas matplotlib jupyterlab osmnx -y](url)
 
 # 2. Open the notebook
 jupyter lab scripts/livability_score.ipynb
