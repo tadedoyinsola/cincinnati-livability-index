@@ -4,16 +4,6 @@ A reproducible geospatial workflow that assigns a livability score to apartment 
 
 > Status: analysis complete for three factors (parks, transit, schools). Scores and figures below were produced from OpenStreetMap data retrieved via `osmnx`.
 > See [Reproducing the analysis]
-
-# 2. Open the notebook
-jupyter lab scripts/livability_score.ipynb
-
-# 3. Run all cells. Outputs are written to outputs/livability/.
-# 2. Open the notebook
-jupyter lab scripts/livability_score.ipynb
-
-# 3. Run all cells. Outputs are written to outputs/livability/.) to regenerate everything from scratch.
-
 ---
 
 ## 1. Summary
